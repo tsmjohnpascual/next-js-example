@@ -4,6 +4,7 @@ import Image from "next/image"
 export const Header = () => {
     return (
         <header>
+          <div>
           <div className="topNav">
             <Image alt='logo' src={'/images/logo_black.png'} width={50} height={50}/>
             <nav>
@@ -20,7 +21,8 @@ export const Header = () => {
               </ul>
             </nav>
           </div>
-          <h1>Events app</h1>
+          <p className="title">Events App</p>
+          </div>
       </header>
     )
 }
