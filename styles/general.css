@@ -1,0 +1,39 @@
+header {
+  height: 300px;
+  padding: 20px;
+  background: linear-gradient(305deg, #dbfff3, transparent);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header h1 {
+  width: 50%;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topNav ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 15px;
+}
+
+.topNav ul li {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
